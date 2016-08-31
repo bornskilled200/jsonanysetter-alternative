@@ -1,0 +1,11 @@
+{
+  "username": "flat user",
+  "password": "password",
+  "permission_north": null,
+  "permission_south": false,
+  "permission_left": true,
+  "permission_right": 0,
+  "permission_up": 1,
+  "permission_east": "false",
+  "permission_down": "true"
+}
