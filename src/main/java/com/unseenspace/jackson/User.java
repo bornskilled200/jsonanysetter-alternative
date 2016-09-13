@@ -1,5 +1,7 @@
 package com.unseenspace.jackson;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.util.EnumSet;
 
 /**
@@ -7,6 +9,7 @@ import java.util.EnumSet;
  *
  * Created by madsk_000 on 8/30/2016.
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class User {
     private String username;
     private String password;
